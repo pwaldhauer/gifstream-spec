@@ -1,0 +1,9 @@
+{
+    "version": 1,
+    "title": "GifStream Teststream",
+    "base": "http://example.com/gifs/",
+    "files": [
+        "0001.gif",
+        "0002.gif"
+    ]
+}
