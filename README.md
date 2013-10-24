@@ -1,6 +1,6 @@
 # GifStream Specification
 
-GifStream uses a really simple JSON format to describe lists of gif files. Everything should be pretty self explaining.
+GifStream uses a really simple JSON format to describe lists of gif files. Everything should be pretty self-explanatory.
 
 ````
 {
