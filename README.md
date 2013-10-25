@@ -7,8 +7,11 @@ GifStream uses a really simple JSON format to describe lists of gif files. Every
     "version": 1,
     "title": "GifStream Teststream",
     "base": "http://example.com/gifs/",
+    "license": "Very important license information",
     "files": [
         {
+            "added": 123123123,
+            "license": "Detailed license information",
             "title":"a cat riding a bike",
             "src": "0001.gif"
         },
@@ -22,6 +25,8 @@ GifStream uses a really simple JSON format to describe lists of gif files. Every
 
 The `base` field can be omitted if you want to use absolute URLs in the `files` array.
 
+The `license` field is optional, too.
+
 ## File objects
 
-Each file should at least have a `src` property. All other properties are optional.
+Each file should at least have a `src` property. All other properties are optional. The file `license` fields overwrite the global `license` field.
