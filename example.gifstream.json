@@ -2,8 +2,11 @@
     "version": 1,
     "title": "GifStream Teststream",
     "base": "http://example.com/gifs/",
+    "license": "Global License",
     "files": [
         {
+            "added": 123123123,
+            "license": "Peter Pan",
             "title":"a cat riding a bike",
             "src": "0001.gif"
         },
