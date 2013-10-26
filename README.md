@@ -29,4 +29,8 @@ The `license` field is optional, too.
 
 ## File objects
 
-Each file should at least have a `src` property. All other properties are optional. The file `license` fields overwrite the global `license` field.
+| Field         | Description                                                | Type   |
+|---------------|------------------------------------------------------------|--------| 
+| `src`         | required, URL or relative path                             | String |
+| `license`     | recommended, overwrites the global `license` field         | String |
+| `added`       | unix timestamp in mseconds                                 | Float  |
