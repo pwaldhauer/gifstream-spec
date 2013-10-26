@@ -33,4 +33,4 @@ The `license` field is optional, too.
 |---------------|------------------------------------------------------------|--------| 
 | `src`         | required, URL or relative path                             | String |
 | `license`     | recommended, overwrites the global `license` field         | String |
-| `added`       | unix timestamp in mseconds                                 | Float  |
+| `added`       | unix timestamp in seconds                                  | Int  |
