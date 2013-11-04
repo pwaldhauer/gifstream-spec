@@ -6,6 +6,7 @@ GifStream uses a really simple JSON format to describe lists of gif files. Every
 {
     "version": 1,
     "title": "GifStream Teststream",
+    "identifier": "com.example.gifstream-teststream",
     "base": "http://example.com/gifs/",
     "license": "Very important license information",
     "files": [
@@ -22,6 +23,8 @@ GifStream uses a really simple JSON format to describe lists of gif files. Every
     ]
 }
 ````
+
+The `identifier` field must contain a string that uniquely identifies your GifStream. We recommend using [UTI format](http://en.wikipedia.org/wiki/Uniform_Type_Identifier).
 
 The `base` field can be omitted if you want to use absolute URLs in the `files` array.
 

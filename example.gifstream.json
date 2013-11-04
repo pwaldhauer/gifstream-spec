@@ -1,6 +1,7 @@
 {
     "version": 1,
     "title": "GifStream Teststream",
+    "identifier": "com.example.gifstream-teststream",
     "base": "http://example.com/gifs/",
     "license": "Global License",
     "files": [
