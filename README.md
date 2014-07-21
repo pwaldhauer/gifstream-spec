@@ -33,7 +33,8 @@ The `license` field is optional, too.
 ## File objects
 
 | Field         | Description                                                | Type   |
-|---------------|------------------------------------------------------------|--------| 
+|---------------|------------------------------------------------------------|--------|
+| `title`       | optional, the title of the gif                             | String |
 | `src`         | required, URL or relative path                             | String |
 | `license`     | recommended, overwrites the global `license` field         | String |
 | `added`       | unix timestamp in seconds                                  | Int  |
